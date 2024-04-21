@@ -479,7 +479,7 @@ while r<8:
     while c<8:
 
         values.append([r,c])
-        buttons[r].append(Button(main, text=myboard[values[i][0]][values[i][1]],font=('Helvetica bold',60),command=lambda k=i:buttonmove(k)))
+        buttons[r].append(Button(main, text=myboard[values[i][0]][values[i][1]],font=('Helvetica bold',30),command=lambda k=i:buttonmove(k)))
         i += 1
         c+=1
     r+=1
